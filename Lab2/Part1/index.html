@@ -105,7 +105,7 @@ I am going to modify this file according to the given example in the assigenment
   <body>
     <header>
       <h1>Mozilla Rockstars</h1>
-      <img src="firefox_logo-only_RGB-120.png" alt="firefox logo">
+      <img src="firefox_logo-only_RGB.png" alt="firefox logo">
     </header>
 
     <main>
@@ -122,7 +122,10 @@ I am going to modify this file according to the given example in the assigenment
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img>
+          <img
+          srcset="firefox_logo-only_RGB.png 120w, firefox_logo-only_RGB.png 400w"
+          sizes="(max-width: 500px) 120px, 400px"
+          src="firefox_logo-only_RGB.png" alt="firefox logo">
         </a>
         <a href="https://www.mozilla.org/">
           <img>
