@@ -102,3 +102,15 @@ nav ul li a{
   background-color: rgba(170, 102, 102, 0.145);
   padding: 0rem;
 }
+
+nav ul li a:hover{
+  background-color: rgba(170, 102, 102, 0.37);
+}
+
+nav ul li{
+  list-style: none;
+  width: 13rem;
+   margin: 25px 0 25px 0;
+   line-height: 3;
+
+}
