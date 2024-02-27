@@ -51,6 +51,10 @@ body {
   }
 
   nav ul {
-    display: flex;
-    
+    display: flex; 
+  }
+
+  nav ul li{
+    flex: 1;
+    border-right: 1px solid white;
   }
