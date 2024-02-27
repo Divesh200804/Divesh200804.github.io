@@ -75,3 +75,11 @@ a:link, a:active {
     color:#a66;
    
 }
+
+
+a:hover, a:visited {
+  color:rgb(216, 60, 60); 
+
+ text-decoration: none;
+ 
+}
