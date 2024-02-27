@@ -114,3 +114,8 @@ nav ul li{
    line-height: 3;
 
 }
+
+section li, aside ul li{
+  line-height: inherit;
+list-style-type: initial;
+}
