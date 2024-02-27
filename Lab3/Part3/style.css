@@ -81,5 +81,14 @@ a:hover, a:visited {
   color:rgb(216, 60, 60); 
 
  text-decoration: none;
- 
+}
+
+section p a::after{
+    display:inline-block;
+    height:1.3rem;
+    width:1.3rem;
+    margin: 0 2px 0 4px;
+    content: "";
+    background:url(https://raw.githubusercontent.com/mdn/learning-area/master/css/styling-text/typesetting-a-homepage-start/external-link-52.png) no-repeat 0 0;
+    background-size: 100% auto;
 }
