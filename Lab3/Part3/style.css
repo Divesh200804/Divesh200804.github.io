@@ -43,3 +43,8 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+html {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 12px;
+}
