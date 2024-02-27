@@ -92,3 +92,13 @@ section p a::after{
     background:url(https://raw.githubusercontent.com/mdn/learning-area/master/css/styling-text/typesetting-a-homepage-start/external-link-52.png) no-repeat 0 0;
     background-size: 100% auto;
 }
+
+nav ul li a{
+  display: block;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 2px solid #a66;
+  text-align: center;
+  background-color: rgba(170, 102, 102, 0.145);
+  padding: 0rem;
+}
