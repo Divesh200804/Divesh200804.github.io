@@ -46,5 +46,11 @@ header, footer {
 
 html {
   font-family: 'Source Serif Pro', serif;
-  font-size: 12px;
+  font-size: 10px;
+}
+
+h1, h2 {
+  font-family: 'Roboto Slab', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 3px;
 }
