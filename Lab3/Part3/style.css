@@ -61,3 +61,8 @@ body {
   letter-spacing: 1px;
   word-spacing: 2px;
 }
+
+header h1 {
+  font-size: 2em;
+  text-align: center;
+}
